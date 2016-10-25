@@ -2,26 +2,25 @@
 
 This describes variables, data and transofrmations performed to clean up the data. Which resulted into a clean and tidy dataset.
 
-# Data Source
+# Data Source:
 Link for Original Data:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Data Set Provided by the authors from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-# Dataset Description
-
+# Dataset Description:
 Full details and explanations can be found in 'README.txt' in the ZIP file containing the original data source.
 
-# Quick facts
+# Quick facts:
 
 * The experiments involved a group of 30 volunteers (19 - 48 years of age)
 * Each person performed six activities while wearing a smartphone (Samsung Galaxy S II) on their waist
 * The activities consisted of three types of walking (flat, upstairs and downstairs), sitting, standing and laying
 
-# Data Partitioning
+# Data Partitioning:
 
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for
 generating the training data and 30% the test data.
 
-# Measurements
+# Measurements:
 
 The following sensor signals were captured using the smartphone's embedded accelerometer and gyroscope:
 
@@ -31,7 +30,7 @@ The captured signals were pre-processed by applying noise filters and then sampl
 and 50% overlap (128 readings/window). From each window, a vector of features was obtained by calculating variables from the time 
 and frequency domain. See the section 'Feature Selection' below, also the file 'features_info.txt' has complete details.
 
-# Feature Selection
+# Feature Selection:
 
 The features selected for this database come from the accelerometer and gyroscope three-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
@@ -78,7 +77,7 @@ The features were further combined with a variety of estimated variables, such a
 smalles value in the set etc. This adds up to over 550 of different indicators in total. The file 'features.txt' lists all of the 
 variables.
 
-# Transformations
+# Transformations:
 As stipulated by the requirements the following transformations were made to keep the resulting output clean and tidy:
 
 * The training and the test sets have been merged to form a single data set
